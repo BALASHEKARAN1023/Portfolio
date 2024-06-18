@@ -51,7 +51,7 @@ const NaviBar = () => {
   );
 
   return (
-    <nav className={`fixed top-0 w-full z-50 ${navbarBg ? 'backdrop-blur-md bg-opacity-60' : 'bg-slate-900'}`}>
+    <nav className={`sticky top-0 w-full z-50 ${navbarBg ? 'backdrop-blur-md bg-opacity-60' : 'bg-slate-900'}`}>
       <div className='h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4 border bs2 border-slate-800'>
         <div className='flex items-center flex-1'>
           <img

@@ -30,7 +30,7 @@ const Banner = () => {
                     /></span>
                 </h1>
 
-                <p data-aos='fade-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequatur odit, voluptates doloremque, eius illum inventore eveniet molestias obcaecati harum unde voluptas adipisci accusantium. Corrupti esse distinctio perferendis. Facere, numquam?</p>
+                <p data-aos='fade-left'>I am studying for a Bachelor of Engineering in Computer Science and Engineering at Karpagam College of Engineering.</p>
                 <div className='flex mt-8 gap-2'>
                     <div className='flex items-center justify-center'>
                         <div className='flex space-x-2'>
