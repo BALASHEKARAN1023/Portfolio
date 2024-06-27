@@ -23,4 +23,3 @@ const Projects = () => {
   )
 }
 export default Projects;
-// https://wallpaperaccess.com/full/3308624.jpg

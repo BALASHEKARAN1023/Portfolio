@@ -13,13 +13,13 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000)
+    },2000)// 2000
   }, [])
   return (
     <>
       {
         loading ?
-          <div className='bg-slate-900 h-[100vh] flex justify-center items-center'>
+          <div className='bgimage h-[100vh] flex justify-center items-center'>
             <BallTriangle
               height={100}
               width={100}
@@ -33,7 +33,7 @@ function App() {
           </div>
           :
           <div className="bg-slate-900" >
-            {/* <DemoCard/> */}
+            {/* <DemoCard/>  */}
             <NaviBar />
             <Banner />
             <About />
